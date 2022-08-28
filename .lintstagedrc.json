@@ -1,0 +1,4 @@
+{
+  "*.(tsx|ts|json|scss)": "yarn prettier --write",
+  "*.(tsx|ts)": "yarn eslint"
+}
