@@ -1,0 +1,10 @@
+.movingBox {
+  text-align: center;
+  padding: 50px 0;
+
+  canvas {
+    width: 960px;
+    height: 540px;
+    box-shadow: 3px 3px 5px 3px #eee;
+  }
+}
