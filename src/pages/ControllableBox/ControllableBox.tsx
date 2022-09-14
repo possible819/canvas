@@ -11,7 +11,7 @@ import styles from './ControllableBox.module.scss'
 const CANVAS_WIDTH = 960
 const CANVAS_HEIGHT = 540
 const BOX_SIZE = 20
-const MOVE_UNIT = 1
+const MOVE_UNIT = 5
 
 interface ArrowKeyMap {
   ArrowLeft: boolean
