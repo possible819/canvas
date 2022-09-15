@@ -5,6 +5,7 @@ const MENUS: Menu[] = [
   { name: 'Moving Box', route: 'moving-box' },
   { name: 'Controllable Box', route: 'controllable-box' },
   { name: 'Transforming', route: 'transforming' },
+  { name: 'Racing Car - Velocity', route: 'racing-car' },
 ]
 
 export default MENUS

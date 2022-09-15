@@ -5,6 +5,7 @@ import withTitle from './hocs/withTitle'
 import ControllableBox from './pages/ControllableBox/ControllableBox'
 import MovingBox from './pages/MovingBox/MovingBox'
 import Painter from './pages/Painter/Painter'
+import RacingCar from './pages/RacingCar/RacingCar'
 import Transforming from './pages/Transforming/Transforming'
 
 const App = () => (
@@ -35,6 +36,10 @@ const App = () => (
         <Route
           path="/transforming"
           element={withTitle(Transforming, 'Canvas Playground - Transforming')}
+        />
+        <Route
+          path="/racing-car"
+          element={withTitle(RacingCar, 'Canvas Playground - Racing car')}
         />
       </Routes>
     </main>
